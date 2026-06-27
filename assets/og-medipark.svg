@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="브레인시티 메디스파크 로제비앙 모아엘가 썸네일">
+  <defs>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#031419" stop-opacity=".92"/>
+      <stop offset=".52" stop-color="#031419" stop-opacity=".66"/>
+      <stop offset="1" stop-color="#031419" stop-opacity=".18"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0c3b43" stop-opacity=".94"/>
+      <stop offset="1" stop-color="#061c22" stop-opacity=".9"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff0bd"/>
+      <stop offset=".5" stop-color="#d6a648"/>
+      <stop offset="1" stop-color="#a06f25"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#031417" flood-opacity=".36"/>
+    </filter>
+  </defs>
+  <image href="../hero_render/hero_render.jpg" width="1200" height="630" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1200" height="630" fill="url(#shade)"/>
+  <rect x="58" y="54" width="642" height="522" rx="34" fill="url(#panel)" filter="url(#shadow)"/>
+  <rect x="94" y="92" width="236" height="42" rx="21" fill="#fff" opacity=".92"/>
+  <text x="116" y="120" fill="#072127" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="18" font-weight="900">BRAIN CITY</text>
+  <text x="244" y="120" fill="#c48b2d" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="18" font-weight="900">MEDIPARK</text>
+  <text x="94" y="229" fill="#fff" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="72" font-weight="900">
+    <tspan x="94">브레인시티</tspan>
+    <tspan x="94" dy="86">메디스파크</tspan>
+  </text>
+  <rect x="94" y="356" width="466" height="48" rx="24" fill="url(#gold)"/>
+  <text x="120" y="389" fill="#082329" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="28" font-weight="900">로제비앙 모아엘가 관심고객 모집</text>
+  <text x="96" y="461" fill="#fae0a6" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="30" font-weight="900">학교 · 병원 · 공원</text>
+  <text x="96" y="505" fill="#fae0a6" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="30" font-weight="900">미래가치를 가까이 누리는 중심 입지</text>
+  <text x="96" y="554" fill="#ddecec" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="24" font-weight="800">타입별 상담 · 방문예약 · 분양 안내</text>
+  <g transform="translate(800 470)">
+    <rect width="328" height="82" rx="24" fill="#fff" opacity=".92"/>
+    <circle cx="54" cy="50" r="30" fill="#072127"/>
+    <path d="M42 66V42l12 8 12-8v24h-8V54l-4 3-4-3v12h-8Z" fill="url(#gold)"/>
+    <path d="M67 34h-8v-5h-5v5h-8v6h8v8h5v-8h8v-6Z" fill="#f8f4e8"/>
+    <text x="104" y="33" fill="#072127" font-family="Arial, sans-serif" font-size="25" font-weight="900">REAL-SALES</text>
+    <text x="104" y="68" fill="#4c5f65" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, Arial, sans-serif" font-size="22" font-weight="800">010-6689-2348</text>
+  </g>
+</svg>
